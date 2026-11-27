@@ -29,7 +29,7 @@ class BookProfile {
         this.borrowedBooks = borrowedBooks;
     }
 
-    public BowrrowingBook(barcode: Barcode): void {
+    public BorrowingBook(barcode: Barcode): void {
         const index = this.availableBooks.findIndex((b) => b.equals(barcode));
         if (index !== -1) {
             this.availableBooks.splice(index, 1);
