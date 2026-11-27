@@ -7,7 +7,7 @@
     "lib": [
       "esnext"
     ],
-    "types": [],
+    "types": ["node"],
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true,
     "noImplicitOverride": true,
