@@ -1,5 +1,5 @@
 import type BookProfileId from "./BookProfileId.ts";
-import type { BookId } from "shared/BookId.ts";
+import type { BookId } from "shared/Barcode.js";
 
 class BookProfile {
     private BookProfileId: BookProfileId;
