@@ -3,5 +3,9 @@
   "type": "module",
   "dependencies": {
     "typescript": "^7.0.2"
+  },
+  "scripts": {
+    "dev": "tsx src/main.ts",
+    "typecheck": "tsc --noEmit"
   }
 }
