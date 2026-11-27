@@ -3,5 +3,13 @@
   "type": "module",
   "dependencies": {
     "typescript": "^7.0.2"
+  },
+  "scripts": {
+    "dev": "tsx src/main.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.11",
+    "tsx": "^4.23.15"
   }
 }
